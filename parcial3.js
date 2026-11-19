@@ -10,3 +10,12 @@ if (valorCompra > 0 && cuotas >= 1 && cuotas <= 36 && cupo >= valorCompra) {
     alert("hay un problema verificar los datos");
 }
 
+let interesTotal = (valorCompra * tasa * (cuotas + 1) / 2)
+
+let valorFinal = (valorCompra + interesTotal)
+
+let cuotaMensual = (valorFinal / cuotas)
+
+if (cuotaMensual === true) {
+    alert()
+}
